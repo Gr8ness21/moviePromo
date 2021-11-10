@@ -1,7 +1,7 @@
 # My First Website
 
 #### A simple promotion site for a movie.
-<img src="./images/homePage.png" alt="Home Page Welcome Screen"/>
+<img src="./images/promoProject.png" alt="Home Page Welcome Screen"/>
 
 ## Description
 Ready player one is an extremely stimulating visual masterpiece. This template was created as a simple 3 page website to promote a small project.
@@ -25,7 +25,8 @@ Ready player one is an extremely stimulating visual masterpiece. This template w
 * Users can view content through Parallax-styled web pages
 
 ## Whiteboard Images
-* N/A
+### No major whiteboarding was done in the initial stages but the design was inspired by this movie poster.
+<img src="./images/fanart3.jpg" alt="Home Page Welcome Screen"/>
 
 ## Trello Planning
 * All planning in notebooks
