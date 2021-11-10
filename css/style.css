@@ -1,0 +1,217 @@
+/* Navigation Bar */
+ul {
+    display:block;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+    position: fixed ;
+  }
+li{
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    position: sticky;
+    top: 0px;
+}
+li a{
+    display: block;
+    color: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+    color: plum;
+  }
+.p1{
+  background-image: url(../images//rp1Poster.jpg);
+  background-size: cover;
+  color: #555;
+}
+h2{
+  background: white;
+  opacity: .7;
+  color: black;
+  text-align: center;
+}
+h3{
+  background: #555;
+  color: white;
+  text-align: center;
+}
+
+body{
+  font-family: sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+/*Page 1 Animation */
+/* oval ANIMATION */
+.container{
+  border: none;
+  padding: 150px;
+  margin-left: 300px;
+  height: 800px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.oval{
+  height: 400px;
+  width: 1000px;
+  opacity: .6;
+  border-radius: 50%;
+}
+.enter{
+  background: url(/images//rp1EnterGif.gif);
+  background-size: cover;
+  animation: Vibrate 10s infinite;
+}
+
+@keyframes Vibrate{
+  0%{
+      transform: rotate(540deg) translate(0px,0px);
+  }
+  20%{
+      transform: rotate(15deg) translate(0px,0px);
+  }
+  30%{
+      transform: rotate(-15deg) translate(0px,0px);
+  }
+  40%{
+      transform: rotate(15deg) translate(0px,0px);
+  }
+  50%{
+      transform: rotate(-15deg) translate(0px,0px);
+  }
+  60%{
+      transform: rotate(15deg) translate(0px,0px);
+  }
+  70%{
+      transform: rotate(-15deg) translate(0px,0px);
+  }
+  80%{
+      transform: rotate(-15deg) translate(0px,0px)
+  }
+  100%{
+      transform: rotate(15deg) translate(0px,0px);
+  }
+}
+
+
+
+/* Page 2 Styling */
+#parainner{
+  padding: 400px;
+  color: white;
+}
+#para{
+  background: url("/images//rp1BackgroundImage.jpg") fixed;
+  background-size: cover;
+}
+#para2{
+  background: url("/images//ready-player-one-11.jpg") fixed;
+  background-size: cover;
+}
+#para3{
+  background: url("/images//rp1TheStacksArt.jpg") fixed;
+  background-size: cover;
+}
+
+
+/* Page 3 Styling */
+#p3para{
+  background: url("/images//rp1EnteringOasisGif.gif");
+  background-size: center;
+}
+#p3para2{
+  background: url("/images//rp1Poster.jpg") fixed;
+  background-size: contain;
+}
+#p3para3{
+  background: url("/images//rp1Sixers.jpg") fixed;
+  background-size: cover;
+}
+
+
+/* Page 4 Styling */
+#p4para{
+  background: url("/images//rp1EggGif.gif") fixed;
+  background-size: cover;
+}
+#p4para2{
+  background: url("/images//rp1Mechagodzilla.gif") fixed;
+  background-size: cover;
+}
+#p4para3{
+  background: url("/images//rp1CopperKey.jpg") fixed;
+  background-size: cover;
+}
+
+
+
+
+/* Slide Show Character Animations*/
+.parzival{
+  height: 500px;
+  width: 775px;
+  background-image: url("/images//rp1ParcivalGif.gif");
+  background-size: cover;
+  background-position: center;
+  animation: slideShow 5s infinite;
+}
+
+.art3mis{
+  height: 500px;
+  width: 775px;
+  background-image: url("/images//rp1Art3misGif.gif");
+  background-size: cover;
+  background-position: center;
+}
+.aech{
+  height: 500px;
+  width: 775px;
+  background-image: url("/images//rp1AechFightGif.gif");
+  background-size: cover;
+  background-position: center;
+}
+.daito{
+  height: 500px;
+  width: 775px;
+  background-image: url("/images//rp1DaitoGundamGif.gif");
+  background-size: cover;
+  background-position: center;
+}
+.sho{
+  height: 500px;
+  width: 775px;
+  background-image: url("/images//rp1ShoGif.gif");
+  background-size: cover;
+  background-position: center;
+}
+#sorento{
+  height: 500px;
+  width: 775px;
+  background-image: url("/images//actorBo55manBen\ Mendelsohn.png");
+  background-size: cover;
+  background-position: center;
+}
+#irok{
+  height: 500px;
+  width: 775px;
+  background-image: url("/images//rp1iRok.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* slideshow */
+img{
+  height: 400px;
+  width: 400px;
+ }
